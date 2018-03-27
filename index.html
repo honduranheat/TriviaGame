@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+        <title>Quiz</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+        
+        <h1>Quiz</h1>
+
+        <form id='quiz' name='quiz'>
+
+                <p>Who is stronger?</p>
+                <input id="mcquestion" type="radio" name="question1" value="Goku">Goku
+                <br>
+                <input id="mcquestion" type="radio" name="question1" value="blah">blah
+                <br>
+
+                <p>Who is faster?</p>
+                <input id="mcquestion" type="radio" name="question2" value="blah">blah
+                <br>
+                <input id="mcquestion" type="radio" name="question2" value="Roadrunner">Roadrunner
+                <br>
+
+                <p>Who is smarter?</p>
+                <input id="mcquestion" type="radio" name="question3" value="blah">blah
+                <br>
+                <input id="mcquestion" type="radio" name="question3" value="Dexter">Dexter
+                <br>
+
+                <input id="button" type="button" value="Submit" onclick="check();">
+
+        </form>
+
+        <div id="after_submit">
+                <p id="message"></p>
+                <p id="number_correct"></p>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
