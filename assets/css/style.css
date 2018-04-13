@@ -1,0 +1,20 @@
+body {
+    background-image: url("../images/background3.jpg");
+    background-position: center;
+}
+
+#container {
+    width: 250px;
+    height: 600px;
+    margin-left: 500px;
+    background-color: tan;
+    text-align: center;
+}
+
+#quiz {
+    text-align: left;
+}
+
+#button {
+    margin-left: 90px;
+}

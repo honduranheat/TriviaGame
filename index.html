@@ -10,38 +10,48 @@
 </head>
 
 <body>
-        
+        <div id="container">
         <h1>Quiz</h1>
 
-        <form id='quiz' name='quiz'>
 
-                <p>Who is stronger?</p>
-                <input id="mcquestion" type="radio" name="question1" value="Goku">Goku
-                <br>
-                <input id="mcquestion" type="radio" name="question1" value="blah">blah
-                <br>
+        
+                <div id="countdown"></div>
 
-                <p>Who is faster?</p>
-                <input id="mcquestion" type="radio" name="question2" value="blah">blah
-                <br>
-                <input id="mcquestion" type="radio" name="question2" value="Roadrunner">Roadrunner
-                <br>
+                <form id='quiz' name='quiz'>
 
-                <p>Who is smarter?</p>
-                <input id="mcquestion" type="radio" name="question3" value="blah">blah
-                <br>
-                <input id="mcquestion" type="radio" name="question3" value="Dexter">Dexter
-                <br>
+                        <p>In "Legend of Zelda: Ocarina of Time", using a gameshark, players can battle...</p>
+                        <input id="mcquestion" type="radio" name="question1" value="correct">An Arwing from Star Fox
+                        <br>
+                        <input id="mcquestion" type="radio" name="question1" value="blah">Princess Zelda
+                        <br>
+                        <input id="mcquestion" type="radio" name="question1" value="blah">Mario
+                        <br>
 
-                <input id="button" type="button" value="Submit" onclick="check();">
+                        <p>Prior to Tim Allens acting career, he was a "successful"...</p>
+                        <input id="mcquestion" type="radio" name="question2" value="blah">Smooth Jazz musician
+                        <br>
+                        <input id="mcquestion" type="radio" name="question2" value="correct">Drug dealer
+                        <br>
+                        <input id="mcquestion" type="radio" name="question2" value="blah">Blacksmith
+                        <br>
 
-        </form>
+                        <p>The first rap song to reach No. 1 on the pop charts was...</p>
+                        <input id="mcquestion" type="radio" name="question3" value="blah">"Who Let The Dogs Out" by Baha Men
+                        <br>
+                        <input id="mcquestion" type="radio" name="question3" value="blah">"Thong Song" by Sisco
+                        <br>
+                        <input id="mcquestion" type="radio" name="question3" value="correct">"Ice Ice Baby" by Vanilla Ice
+                        <br>
 
-        <div id="after_submit">
-                <p id="message"></p>
-                <p id="number_correct"></p>
+                        <input id="button" type="button" value="Submit" onclick="check();">
+
+                </form>
+
+                <div id="after_submit">
+                        <p id="message"></p>
+                        <p id="number_correct"></p>
+                </div>
         </div>
-
 
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="assets/javascript/app.js"></script>
